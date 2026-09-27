@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pratik Ranvir | AI &amp; Data Science Engineer</title>
+<meta name="description" content="Portfolio of Pratik Ranvir, an Artificial Intelligence & Data Science Engineer specializing in machine learning, LLMs, RAG applications, and data analytics.">
+<meta name="author" content="Pratik Ranvir">
+<meta property="og:title" content="Pratik Ranvir | AI & Data Science Engineer">
+<meta property="og:description" content="Machine learning pipelines, LLMs, RAG applications, and data analytics — portfolio and projects.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://pratik-ranvir.github.io">
+<link rel="canonical" href="https://pratik-ranvir.github.io/">
+
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop offset='0' stop-color='%2338bdf8'/%3E%3Cstop offset='.5' stop-color='%2306b6d4'/%3E%3Cstop offset='1' stop-color='%238b5cf6'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='14' fill='%230a0e17'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='700' font-size='28' fill='url(%23g)' text-anchor='middle'%3EPR%3C/text%3E%3C/svg%3E">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<a href="#main" class="skip-link">Skip to content</a>
+
+<!-- Neural grid / particle background -->
+<canvas id="bg-canvas" aria-hidden="true"></canvas>
+
+<!-- NAV -->
+<header class="navbar" id="navbar">
+  <div class="navbar-inner">
+    <a href="#home" class="logo">Pratik<span class="text-grad"> Ranvir</span></a>
+
+    <nav class="nav-links" id="desktop-nav">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#certifications" class="nav-link">Certifications</a>
+      <a href="#education" class="nav-link">Education</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <a href="#contact" class="btn btn-primary btn-sm nav-cta">Hire me</a>
+
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+  </div>
+
+  <div id="mobile-menu" class="mobile-menu">
+    <a href="#about" class="nav-link">About</a>
+    <a href="#skills" class="nav-link">Skills</a>
+    <a href="#projects" class="nav-link">Projects</a>
+    <a href="#certifications" class="nav-link">Certifications</a>
+    <a href="#education" class="nav-link">Education</a>
+    <a href="#contact" class="nav-link">Contact</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section id="home" class="section hero">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <p class="eyebrow">Hi, I'm</p>
+        <h1 class="hero-name">Pratik Ranvir</h1>
+        <p class="hero-title text-grad">Artificial Intelligence &amp; Data Science Engineer</p>
+        <p class="hero-bio">
+          I turn complex data into intelligent, end-to-end systems — from machine learning
+          pipelines and predictive models to LLM-powered, retrieval-augmented applications.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View my work</a>
+          <a href="#contact" class="btn btn-ghost">Get in touch</a>
+          <button id="resume-btn" class="btn btn-outline" data-pdf="assets/docs/resume.pdf">
+            <i class="fa-solid fa-download"></i> Resume
+          </button>
+        </div>
+
+        <div class="social-row">
+          <a href="https://github.com/pratik-ranvir" target="_blank" rel="noopener" aria-label="GitHub profile" class="icon-btn"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/pratikranvir/" target="_blank" rel="noopener" aria-label="LinkedIn profile" class="icon-btn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="mailto:pratikranvir.in@gmail.com" aria-label="Send email" class="icon-btn"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+
+      <div class="hero-avatar-wrap">
+        <div class="avatar-frame">
+          <img src="assets/images/profile.jpg" alt="Photo of Pratik Ranvir" width="280" height="280">
+        </div>
+        <div class="floating-chip chip-status">
+          <span class="status-dot"></span> Open to opportunities
+        </div>
+        <div class="floating-chip chip-location">
+          <i class="fa-solid fa-location-dot"></i> Pune, India
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="section-inner about-grid">
+      <div>
+        <h2 class="section-title">About</h2>
+        <p class="section-lead">
+          Recent Bachelor's graduate in Computer Science specializing in Artificial Intelligence
+          &amp; Data Science. Passionate about transforming complex data into actionable insights
+          and building intelligent end-to-end AI systems. Skilled in machine learning pipelines,
+          predictive modeling, LLMs, RAG applications, and data analytics. Actively seeking
+          full-time opportunities as an AI Engineer, Data Scientist, or AI Product Engineer to
+          build impactful, scalable solutions.
+        </p>
+        <div class="tag-row">
+          <span class="tag">AI Engineer</span>
+          <span class="tag">Data Scientist</span>
+          <span class="tag">AI Product Engineer</span>
+        </div>
+      </div>
+
+      <div class="glass-card facts-card">
+        <h3>Quick facts</h3>
+        <ul class="facts-list">
+          <li><i class="fa-solid fa-location-dot"></i> Hinjewadi, Pune 411057</li>
+          <li><i class="fa-solid fa-graduation-cap"></i> Pursuing M.Sc in AI &amp; Data Science</li>
+          <li><i class="fa-solid fa-envelope"></i> <a href="mailto:pratikranvir.in@gmail.com">pratikranvir.in@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title">Skills</h2>
+      <p class="section-lead-sm">Tools and technologies I work with across the AI and data lifecycle.</p>
+
+      <div class="skills-grid">
+        <div class="glass-card skill-card">
+          <div class="skill-icon icon-sky"><i class="fa-solid fa-code"></i></div>
+          <h3>Programming Languages</h3>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">SQL</span><span class="tag">C</span>
+            <span class="tag">Java</span><span class="tag">PHP</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-icon icon-violet"><i class="fa-solid fa-brain"></i></div>
+          <h3>AI / ML &amp; GenAI</h3>
+          <div class="tag-row">
+            <span class="tag">Machine Learning</span><span class="tag">Scikit-Learn</span>
+            <span class="tag">Deep Learning</span><span class="tag">Neural Networks</span>
+            <span class="tag">LLMs</span><span class="tag">RAG</span>
+            <span class="tag">Pandas</span><span class="tag">NumPy</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-icon icon-cyan"><i class="fa-solid fa-chart-line"></i></div>
+          <h3>Data Analytics &amp; Visualization</h3>
+          <div class="tag-row">
+            <span class="tag">EDA</span><span class="tag">Power BI</span>
+            <span class="tag">Matplotlib</span><span class="tag">Seaborn</span><span class="tag">MS Excel</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-icon icon-sky"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3>Frontend &amp; Web Development</h3>
+          <div class="tag-row">
+            <span class="tag">HTML5</span><span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span><span class="tag">Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="glass-card skill-card">
+          <div class="skill-icon icon-violet"><i class="fa-solid fa-database"></i></div>
+          <h3>Developer Tools &amp; Databases</h3>
+          <div class="tag-row">
+            <span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">MySQL</span>
+            <span class="tag">PostgreSQL</span><span class="tag">VS Code</span>
+            <span class="tag">Jupyter Notebook</span><span class="tag">Google Colab</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Featured Projects</h2>
+      <p class="section-lead-sm">A few things I've built, from GenAI applications to full-stack products.</p>
+
+      <div class="filter-row" id="project-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="genai">GenAI / LLM</button>
+        <button class="filter-btn" data-filter="fullstack">Full Stack</button>
+        <button class="filter-btn" data-filter="data">Data Analysis</button>
+      </div>
+
+      <div class="projects-list" id="projects-list">
+
+        <article class="glass-card project-card" data-category="genai">
+          <div class="project-head">
+            <span class="project-tag tag-sky">GenAI / LLM Project</span>
+            <h3>RAG-Based AI Teaching Assistant</h3>
+          </div>
+          <p class="project-desc">
+            An intelligent conversational AI teaching assistant built using Large Language Models
+            and Retrieval-Augmented Generation architecture to answer domain-specific educational
+            queries accurately.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">LLMs</span>
+            <span class="tag">RAG</span><span class="tag">Vector DB</span>
+          </div>
+        </article>
+
+        <article class="glass-card project-card" data-category="fullstack">
+          <div class="project-head">
+            <div>
+              <span class="project-tag tag-violet">Full Stack Web Application</span>
+              <h3>Student Scheme Portal</h3>
+              <p class="project-role">Role: Full Stack Developer</p>
+            </div>
+            <a href="https://studentscheme.in" target="_blank" rel="noopener" class="btn btn-ghost btn-sm">
+              Live site <i class="fa-solid fa-arrow-up-right-from-square"></i>
+            </a>
+          </div>
+          <p class="project-desc">
+            A community-driven web portal designed to make scholarship details, official notices,
+            student rights info, and grievance mechanisms directly accessible to students in
+            simplified language.
+          </p>
+          <ul class="feature-list">
+            <li><i class="fa-solid fa-check"></i> User Registration System</li>
+            <li><i class="fa-solid fa-check"></i> Official Notice Board</li>
+            <li><i class="fa-solid fa-check"></i> Grievance Support</li>
+            <li><i class="fa-solid fa-check"></i> Fast, Responsive Layout</li>
+          </ul>
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span>
+            <span class="tag">PHP</span><span class="tag">MySQL</span>
+          </div>
+        </article>
+
+        <article class="glass-card project-card" data-category="data">
+          <div class="project-head">
+            <span class="project-tag tag-cyan">Data Analysis &amp; EDA</span>
+            <h3>Coders of Delhi &amp; Bangalore Dataset Analytics</h3>
+          </div>
+          <p class="project-desc">
+            Comprehensive exploratory data analysis on tech developer ecosystems across Delhi and
+            Bangalore datasets. Identified industry trends, developer skill distributions, and
+            compensation metrics using statistical analysis and visualizations.
+          </p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">Pandas</span><span class="tag">NumPy</span>
+            <span class="tag">Matplotlib</span><span class="tag">Seaborn</span>
+          </div>
+        </article>
+
+      </div>
+      <p class="filter-empty" id="filter-empty" hidden>No projects in this category yet.</p>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section section-alt">
+    <div class="section-inner">
+      <h2 class="section-title">Certifications</h2>
+      <p class="section-lead-sm">Structured learning that backs up the hands-on work.</p>
+
+      <div class="cert-grid">
+
+        <div class="glass-card cert-card">
+          <div class="cert-head">
+            <h3>Ultimate Web Development Course 2026 — Build Modern Websites</h3>
+            <span class="cert-date">September 2026</span>
+          </div>
+          <p class="cert-issuer">CodeWithHarry</p>
+          <p class="cert-id">CW11-THE-ULTIMATE-WEB-DEV-COURSE-W1Z2T53S</p>
+          <div class="tag-row">
+            <span class="tag tag-sm">Modern Web Fundamentals</span>
+            <span class="tag tag-sm">HTML5</span>
+            <span class="tag tag-sm">CSS3</span>
+            <span class="tag tag-sm">JavaScript</span>
+            <span class="tag tag-sm">Responsive Frontend Development</span>
+            <span class="tag tag-sm">Web Application Architecture</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn btn-ghost btn-sm cert-view" data-pdf="assets/docs/web-dev-cert.pdf" data-title="Ultimate Web Development Course 2026">
+              <i class="fa-solid fa-eye"></i> View PDF
+            </button>
+            <a class="btn btn-outline btn-sm cert-download" href="assets/docs/web-dev-cert.pdf" data-pdf="assets/docs/web-dev-cert.pdf" download>
+              <i class="fa-solid fa-download"></i> Download
+            </a>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-head">
+            <h3>Complete 2025 Python Bootcamp: Learn Python from Scratch</h3>
+            <span class="cert-date">December 2025</span>
+          </div>
+          <p class="cert-issuer">CodeWithHarry</p>
+          <p class="cert-id">CW11-COMPLETE-PYTHON-BOOTCAMP-LEARN-PYTHON-FROM-SCRATCH-W1Z2T53S</p>
+          <div class="tag-row">
+            <span class="tag tag-sm">Core Python Programming</span>
+            <span class="tag tag-sm">Data Structures &amp; Algorithms</span>
+            <span class="tag tag-sm">OOP</span>
+            <span class="tag tag-sm">File Handling</span>
+            <span class="tag tag-sm">Scripting</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn btn-ghost btn-sm cert-view" data-pdf="assets/docs/python-cert.pdf" data-title="Complete 2025 Python Bootcamp">
+              <i class="fa-solid fa-eye"></i> View PDF
+            </button>
+            <a class="btn btn-outline btn-sm cert-download" href="assets/docs/python-cert.pdf" data-pdf="assets/docs/python-cert.pdf" download>
+              <i class="fa-solid fa-download"></i> Download
+            </a>
+          </div>
+        </div>
+
+        <div class="glass-card cert-card">
+          <div class="cert-head">
+            <h3>The Ultimate Job Ready Data Science Course</h3>
+            <span class="cert-date">May 2025</span>
+          </div>
+          <p class="cert-issuer">CodeWithHarry</p>
+          <p class="cert-id">CW11-THE-ULTIMATE-JOB-READY-DATA-SCIENCE-COURSE-W1Z2T53S</p>
+          <div class="tag-row">
+            <span class="tag tag-sm">Data Analysis</span>
+            <span class="tag tag-sm">Data Cleaning</span>
+            <span class="tag tag-sm">EDA</span>
+            <span class="tag tag-sm">SQL Queries</span>
+            <span class="tag tag-sm">Supervised/Unsupervised ML</span>
+            <span class="tag tag-sm">Scikit-learn</span>
+            <span class="tag tag-sm">Neural Networks</span>
+            <span class="tag tag-sm">LLMs</span>
+            <span class="tag tag-sm">RAG</span>
+          </div>
+          <div class="cert-actions">
+            <button class="btn btn-ghost btn-sm cert-view" data-pdf="assets/docs/data-science-cert.pdf" data-title="The Ultimate Job Ready Data Science Course">
+              <i class="fa-solid fa-eye"></i> View PDF
+            </button>
+            <a class="btn btn-outline btn-sm cert-download" href="assets/docs/data-science-cert.pdf" data-pdf="assets/docs/data-science-cert.pdf" download>
+              <i class="fa-solid fa-download"></i> Download
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section">
+    <div class="section-inner">
+      <h2 class="section-title">Education</h2>
+      <p class="section-lead-sm">The academic path behind the work.</p>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-head">
+              <h3>M.Sc in Artificial Intelligence &amp; Data Science</h3>
+              <span class="tag tag-sm">Pursuing</span>
+            </div>
+            <p class="timeline-sub">School of Information Technology, Indira University, Tathawade, Pune</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-head">
+              <h3>B.Sc in Computer Science</h3>
+              <span class="cert-date">2026 · CGPA 7.84</span>
+            </div>
+            <p class="timeline-sub">Indira College of Commerce and Science (ICCS), Tathawade, Pune — Savitribai Phule Pune University</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="glass-card timeline-card">
+            <div class="timeline-head">
+              <h3>Higher Secondary Certificate (12th)</h3>
+              <span class="cert-date">2021 · 84.50%</span>
+            </div>
+            <p class="timeline-sub">Mahatma Gandhi Junior College, Zari, Parbhani — Maharashtra State Board</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <div class="section-inner contact-inner">
+      <h2 class="section-title">Get in touch</h2>
+      <p class="section-lead">
+        I'm actively looking for full-time roles as an AI Engineer, Data Scientist, or AI Product
+        Engineer. If you're hiring or just want to connect, I'd love to hear from you.
+      </p>
+
+      <div class="contact-actions">
+        <a href="mailto:pratikranvir.in@gmail.com" class="btn btn-primary">
+          <i class="fa-solid fa-envelope"></i> pratikranvir.in@gmail.com
+        </a>
+        <a href="https://github.com/pratik-ranvir" target="_blank" rel="noopener" class="btn btn-ghost">
+          <i class="fa-brands fa-github"></i> GitHub
+        </a>
+        <a href="https://www.linkedin.com/in/pratikranvir/" target="_blank" rel="noopener" class="btn btn-ghost">
+          <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+        </a>
+      </div>
+
+      <div class="glass-card address-card">
+        <div>
+          <p class="address-label"><i class="fa-solid fa-location-dot"></i> Current</p>
+          <p class="address-value">Hinjewadi, Pune – 411057</p>
+        </div>
+        <div>
+          <p class="address-label"><i class="fa-solid fa-house"></i> Permanent</p>
+          <p class="address-value">At Post, Sadegaon – 431540</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <p>&copy; <span id="year"></span> Pratik Ranvir. Built with HTML5, CSS3 &amp; JavaScript, hosted on GitHub Pages.</p>
+    <div class="social-row">
+      <a href="https://github.com/pratik-ranvir" target="_blank" rel="noopener" aria-label="GitHub profile" class="icon-btn icon-btn-sm"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/pratikranvir/" target="_blank" rel="noopener" aria-label="LinkedIn profile" class="icon-btn icon-btn-sm"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="mailto:pratikranvir.in@gmail.com" aria-label="Send email" class="icon-btn icon-btn-sm"><i class="fa-solid fa-envelope"></i></a>
+    </div>
+  </div>
+</footer>
+
+<!-- PDF MODAL -->
+<div class="pdf-modal" id="pdf-modal" role="dialog" aria-modal="true" aria-labelledby="pdf-modal-title" hidden>
+  <div class="pdf-modal-backdrop" data-close-modal></div>
+  <div class="pdf-modal-panel">
+    <div class="pdf-modal-header">
+      <h3 id="pdf-modal-title">Certificate</h3>
+      <div class="pdf-modal-actions">
+        <a id="pdf-modal-download" class="btn btn-outline btn-sm" href="#" download><i class="fa-solid fa-download"></i> Download</a>
+        <button class="icon-btn" id="pdf-modal-close" aria-label="Close preview" data-close-modal><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+    <div class="pdf-modal-body">
+      <iframe id="pdf-modal-frame" title="Certificate preview" src=""></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Toast for fallback alerts -->
+<div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
